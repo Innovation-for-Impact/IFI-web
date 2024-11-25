@@ -1609,6 +1609,31 @@ section,
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+.container {
+  padding: 0 20px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.team {
+  flex: 0 0 24%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.team .pic img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
 .team .team h3 {
   font-size: 20px;
 }

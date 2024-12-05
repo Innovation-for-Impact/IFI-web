@@ -145,7 +145,7 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -723,9 +723,9 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about .btn-get-started {
-  background-color: var(--accent-color);
+  background-color: var(--default-color);
   color: var(--contrast-color);
-  border-radius: 30px;
+  border-radius: 5px;
   padding: 8px 30px;
   border: 2px solid transparent;
   transition: 0.3s all ease-in-out;
@@ -733,9 +733,9 @@ section,
 }
 
 .about .btn-get-started:hover {
-  border-color: var(--accent-color);
+  border-color: var(--default-color);
   background-color: transparent;
-  color: var(--accent-color);
+  color: var(--default-color);
 }
 
 .about h1 {
@@ -799,9 +799,9 @@ section,
 }
 
 .about-2 .btn-get-started {
-  background-color: var(--accent-color);
+  background-color: var(--default-color);
   color: var(--contrast-color);
-  border-radius: 30px;
+  border-radius: 5px;
   padding: 8px 30px;
   border: 2px solid transparent;
   transition: 0.3s all ease-in-out;
@@ -809,9 +809,9 @@ section,
 }
 
 .about-2 .btn-get-started:hover {
-  border-color: var(--accent-color);
+  border-color: var(--default-color);
   background-color: transparent;
-  color: var(--accent-color);
+  color: var(--default-color);
 }
 
 .about-2 .lead {
@@ -877,9 +877,9 @@ section,
 }
 
 .stats .btn-get-started {
-  background-color: var(--accent-color);
+  background-color: var(--default-color);
   color: var(--contrast-color);
-  border-radius: 30px;
+  border-radius: 5px;
   padding: 8px 30px;
   border: 2px solid transparent;
   transition: 0.3s all ease-in-out;
@@ -887,9 +887,9 @@ section,
 }
 
 .stats .btn-get-started:hover {
-  border-color: var(--accent-color);
+  border-color: var(--default-color);
   background-color: transparent;
-  color: var(--accent-color);
+  color: var(--default-color);
 }
 
 .stats .count-numbers .number {
@@ -1079,9 +1079,9 @@ section,
 }
 
 .services-2 .btn-get-started {
-  background-color: var(--accent-color);
+  background-color: var(--default-color);
   color: var(--contrast-color);
-  border-radius: 30px;
+  border-radius: 5px;
   padding: 8px 30px;
   border: 2px solid transparent;
   transition: 0.3s all ease-in-out;
@@ -1089,9 +1089,9 @@ section,
 }
 
 .services-2 .btn-get-started:hover {
-  border-color: var(--accent-color);
+  border-color: var(--default-color);
   background-color: transparent;
-  color: var(--accent-color);
+  color: var(--default-color);
 }
 
 .services-2 .services-item .services-icon {
@@ -1214,6 +1214,10 @@ section,
 /*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/
+.faq {
+  background-color: #f1f1f1;
+}
+
 .faq .content-subtitle {
   font-size: 15px;
   margin-bottom: 10px;

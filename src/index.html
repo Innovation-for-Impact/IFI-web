@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+css reference: https://getbootstrap.com/docs/3.4/css/
 
+m-->
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Active Bootstrap Template</title>
+  <title>Innovation for Impact Website</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -44,34 +47,18 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Active.</h1>
+
+        <h1 class="sitename">Innovation for Impact</h1>
       </a>
 
+      <!--nav bar-->
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
+          <li><a href="clients.html">Clients</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -86,8 +73,11 @@
     <section id="about" class="about section">
 
       <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2" data-aos="fade-up" data-aos-delay="400">
+        <div class="row align-items-center justify-content-between"> <!--change alignment later-->
+          <div class="col-lg-7 mb-5 mb-lg-2 order-lg-2" data-aos="fade-up" data-aos-delay="400">
+          <!-- this is the start of the slide show thingy, change this to fit the portion of page shown
+           on the figma, then add pictures
+          -->
             <div class="swiper init-swiper">
               <script type="application/json" class="swiper-config">
                 {
@@ -113,7 +103,11 @@
                     }
                   }
                 }
+
               </script>
+              <!--
+              I can't find a good image to use, so far, I'll include some group photos if I manage to get some
+              -->
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <img src="assets/img/img_h_6.jpg" alt="Image" class="img-fluid">
@@ -128,31 +122,29 @@
               <div class="swiper-pagination"></div>
             </div>
           </div>
-          <div class="col-lg-4 order-lg-1">
-            <span class="section-subtitle" data-aos="fade-up">Welcome</span>
-            <h1 class="mb-4" data-aos="fade-up">
-              Excepteur sint occaecat cupidatat non proident
+          <div class="col-lg-4 order-lg-3">
+            <h1 class="mb-0 pb-4" data-aos="fade-up">
+              Innovation For Impact
             </h1>
             <p data-aos="fade-up">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated they
-              live in Bookmarksgrove right at the coast of the Semantics, a large
-              language ocean.
+              CREATING SOLUTIONS THROUGH <br>TECHNOLOGY
             </p>
             <p class="mt-5" data-aos="fade-up">
-              <a href="#" class="btn btn-get-started">Get Started</a>
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-get-started">Work With Us</a>
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-get-started">About Us</a> 
             </p>
           </div>
         </div>
       </div>
     </section><!-- /About Section -->
 
-    <!-- About 2 Section -->
+    <!-- Mission section -->
     <section id="about-2" class="about-2 section light-background">
 
       <div class="container">
         <div class="content">
           <div class="row justify-content-center">
+            <!-- if needed this can be used to add more images later,
             <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
               <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
                 <div class="img">
@@ -160,24 +152,47 @@
                 </div>
               </div>
             </div>
-
-            <div class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4" data-aos="fade-up">
+          -->
+            <!--this is where I can put the content of our about page/home page, follow figma-->
+            <div class="offset-md-0 col-sm-12 col-md-10 col-lg-10 col-sm-6" data-aos="fade-up">
               <div class="px-3">
-                <span class="content-subtitle">Our Mission</span>
                 <h2 class="content-title text-start">
-                  The Big Oxmox advised her not to do so, because there were
-                  thousands.
+                  Our Mission
                 </h2>
                 <p class="lead">
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country.
+                  At Innovation for Impact, we are committed to making a meaningful impact through our programming work. 
+                  We empower our members to expand their coding skills while connecting with our community. 
                 </p>
                 <p class="mb-5">
-                  The Big Oxmox advised her not to do so, because there were
-                  thousands of bad Commas, wild Question Marks and devious Semikoli.
+                  We offer opportunities for practical client engagement by taking on pro bono consulting projects. 
+                  We also partner with other clubs and organizations to facilitate cross-disciplinary learning and knowledge exchange.
                 </p>
-                <p>
-                  <a href="#" class="btn-get-started">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /About 2 Section -->
+
+    <!--Our Values Section-->
+    <section id="about-2" class="about-2 section light-background">
+
+      <div class="container">
+        <div class="content">
+          <div class="row justify-content-center">
+            <div class="offset-md-0 col-sm-12 col-md-10 col-lg-10 col-sm-6" data-aos="fade-up">
+              <div class="px-3">
+                <h2 class="content-title text-start">
+                  Our Values
+                </h2>
+                <p class="lead">
+                  At Innovation for Impact, we are committed to making a meaningful impact through our programming work. 
+                  We empower our members to expand their coding skills while connecting with our community. 
+                </p>
+                <p class="mb-5">
+                  We offer opportunities for practical client engagement by taking on pro bono consulting projects. 
+                  We also partner with other clubs and organizations to facilitate cross-disciplinary learning and knowledge exchange.
                 </p>
               </div>
             </div>
@@ -186,7 +201,7 @@
       </div>
     </section><!-- /About 2 Section -->
 
-    <!-- Services Section -->
+    <!-- Services/Skills Section -->
     <section id="services" class="services section light-background">
 
       <div class="container">
@@ -198,7 +213,7 @@
                 <i class="bi bi-bullseye"></i>
               </div>
               <div>
-                <h3>Technology</h3>
+                <h3>Web Development</h3>
                 <p>Separated they live in Bookmarksgrove right at the coast</p>
               </div>
             </div>
@@ -232,67 +247,11 @@
       </div>
     </section><!-- /Services Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
-
-      <div class="container">
-
-        <div class="row gy-4 justify-content-center">
-
-          <div class="col-lg-5">
-            <div class="images-overlap">
-              <img src="assets/img/img_v_1.jpg" alt="student" class="img-fluid img-1" data-aos="fade-up">
-            </div>
-          </div>
-
-          <div class="col-lg-4 ps-lg-5">
-            <span class="content-subtitle">Why Us</span>
-            <h2 class="content-title">Far far away Behind the Word Mountains</h2>
-            <p class="lead">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia.
-            </p>
-            <p class="mb-5">
-              There live the blind texts. Separated they live in Bookmarksgrove
-              right at the coast of the Semantics, a large language ocean.
-            </p>
-            <div class="row mb-5 count-numbers">
-
-              <!-- Start Stats Item -->
-              <div class="col-4 counter" data-aos="fade-up" data-aos-delay="100">
-                <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="3919" data-purecounter-duration="1" class="purecounter number"></span>
-                <span class="d-block">Coffee</span>
-              </div>
-              <!-- End Stats Item -->
-
-              <!-- Start Stats Item -->
-              <div class="col-4 counter" data-aos="fade-up" data-aos-delay="200">
-                <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="2831" data-purecounter-duration="1" class="purecounter number"></span>
-                <span class="d-block">Codes</span>
-              </div>
-              <!-- End Stats Item -->
-
-              <!-- Start Stats Item -->
-              <div class="col-4 counter" data-aos="fade-up" data-aos-delay="300">
-                <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="1914" data-purecounter-duration="1" class="purecounter number"></span>
-                <span class="d-block">Projects</span>
-              </div>
-              <!-- End Stats Item -->
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- /Stats Section -->
-
-    <!-- Blog Posts Section -->
+    <!-- Projects -->
     <section id="blog-posts" class="blog-posts section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <p>Recent Posts</p>
-        <h2>Blog Posts</h2>
+        <h2>Newest Projects</h2>
       </div><!-- End Section Title -->
       <div class="container">
 
@@ -300,7 +259,6 @@
           <div class="col-md-6 col-lg-4">
             <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
               <a href="#" class="thumb d-block"><img src="assets/img/img_h_4.jpg" alt="Image" class="img-fluid rounded"></a>
-
               <div class="post-content">
                 <div class="meta">
                   <a href="#" class="cat">Development</a> •
@@ -309,7 +267,7 @@
                 <h3><a href="#">There live the blind texts they live</a></h3>
                 <p>
                   Far far away, behind the word mountains, far from the countries
-                  Vokalia and Consonantia, there live the blind texts.
+                  Volakia and Consonantia, there live the blind texts.
                 </p>
 
                 <div class="d-flex author align-items-center">
@@ -384,11 +342,16 @@
       </div>
     </section><!-- /Blog Posts Section -->
 
-    <!-- Tabs Section -->
+    <!-- Our Services section -->
     <section id="tabs" class="tabs section light-background">
 
       <div class="container">
         <div class="row gap-x-lg-4 justify-content-between">
+          <div class="row gap-x-lg-4 pb-4">
+            <h1>
+              Our Services
+            </h1>
+          </div>
           <div class="col-lg-4 js-custom-dots">
             <a href="#" class="service-item link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
               <div class="service-icon color-1 mb-4">
@@ -531,10 +494,8 @@
       <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
           <div class="col-md-6 col-lg-4">
-            <span class="content-subtitle">Our Services</span>
             <h2 class="content-title">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia
+              Our Services
             </h2>
             <p class="lead">
               Far far away, behind the word mountains, far from the countries
@@ -545,7 +506,7 @@
               Semantics, a large language ocean.
             </p>
             <p>
-              <a href="#" class="btn btn-get-started">Get Started</a>
+              <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-get-started">Work With Us</a>
             </p>
           </div>
           <div class="col-md-6 col-lg-6 ps-lg-5">
@@ -600,78 +561,9 @@
         </div>
       </div>
     </section><!-- /Services 2 Section -->
+    
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <p>Plans</p>
-        <h2>Pricing Table</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-item recommended">
-              <span class="recommended-badge">Recommended</span>
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Pricing Section -->
-
+<!--WIP-->
     <!-- Faq Section -->
     <section id="faq" class="faq section">
       <!-- Section Title -->
